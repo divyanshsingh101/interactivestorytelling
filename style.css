@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+   box-sizing: border-box;
+   font-family: 'gilroy'
+}
+
+html, body {
+   height: 100%;
+   width: 100%;
+}
+ 
+#page1{
+    min-height: 100vh;
+    background-color: rgb(225, 115, 25);
+    width: 100%;
+    padding-top: 15vh;
+    line-height: 20vh;
+
+}
+#page1 h1{
+    font-size:5vw ;
+    font-family:'calibri';
+    letter-spacing: -7px;
+    
+}
+#page2 pre{
+    font-size:2vw ;
+}
+#page2 h1{
+    font-family:'';
+}
