@@ -64,38 +64,34 @@
 
 .image2 {
     margin-left: 800px;
-    margin-top: 192px;
+    margin-top: 200px;
    
   }
    @keyframes walk {
-    0%   {background-position: 0px; }
-    /* 10%  {right:200px; }
+    0%   {right: 100px; }
+     10%  {right:200px; }
     30%   {right:300px; }
     50%  { right:400px; }
     70%  {right:500px; }
-    85%  {right: 600px;} */
-    100%  {background-position:1000px;}
+    85%  {right: 600px;} 
+    100%  {right:700px;}
   }
    
   /* The element to apply the animation to */
   .image2 {
    
     position: relative;
-    width: 125px;
-    height: 220px;
-    animation: walk 1s steps(8) infinite,
-               forward 5s linear infinite
+    width: auto;
+    height: 500px;
     
-     animation-name: example;
+    
+     animation-name: walk;
     animation-duration: 4s;
     animation-fill-mode: forwards;
     animation-timing-function: ease-in-out;
      
   }
-  @keyframes forward{
-    0% {transform:translateX(-100px);}
-    100% {transform: translateX(1200px);}
-  }
+  
 
 
 .para{
@@ -113,7 +109,7 @@
 }
 
 .third page{
-    width: 80%;
+    width: 100%;
     height: 90vh;
     max-width: 1600px;
     max-height: 800px;
@@ -124,17 +120,42 @@
 }
 .map {
     height: calc(50%-20px);
-    width: 30%;
-    min-height: 200px;
-    min-width: 300px;
-    margin: 10px;
+    width: 100%;
+    min-height: 500px;
+    min-width: 1000px;
+
     overflow: hidden;
 
 }
 .map image{
-    width: 100%;
+    width: auto;
     height: 100%;
     object-fit: cover;
     transition: 1s;
 
 }
+#buttonToThirdPage{
+    background-color: rgb(68, 18, 18);
+    font-size: 17px;
+    border-radius: 4px;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    margin-left: 700px;
+    margin-top: 100px;
+    viewport-fit: 
+    
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.map, #map image {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+  
+  @keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+  }
