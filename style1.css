@@ -24,7 +24,7 @@
 }
 
 .heading h2 {
-    color: beige;
+    color: rgb(255, 255, 255);
     font-size: 30px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
@@ -32,7 +32,7 @@
     background-color: green;
     font-size: 31px;
     border-radius: 4px;
-    color: white;
+    color: rgb(245, 143, 143);
     padding: 15px 35px;
     border: none;
     cursor: pointer;
@@ -48,9 +48,9 @@
     font-size: 35px;
 }
 .image1{
-    height:100vh;
+    height:110vh;
     width:100%;
-    border: none;
+    border: 2000px;;
     position: absolute;
     z-index: -1;
     margin-left: 0%;
@@ -96,14 +96,14 @@
 
 .para{
     position: absolute;
+    font-family:cursive ;
     
     color:white;
     font-size:xx-large;
-    
     top: 50px;
     bottom: 100px;
     transition-timing-function:ease-in-out;
-    transition-duration: 4s;
+    transition-duration: 10s;
 
     
 }
@@ -162,6 +162,7 @@
   }
   .map_para{
     position: absolute;
+    font-family: cursive;
     
     color:white;
     font-size:xx-large;
@@ -188,4 +189,39 @@
 
   .choices{
     position:absolute;
+  }
+  #ready1 {
+    font-family:cursive;
+    position: absolute;
+    bottom: 250px;
+    left: 150px; 
+    font-size:40px;
+    color: rgb(251, 251, 251);
+    
+    
+
+    
+  }
+  #choice11 {
+    font-family:cursive;
+    position:relative;
+    bottom: 200px;
+    left:500px;
+    font-size:30px;
+    background:none;
+    color:rgb(62, 137, 203);
+    background-color: bisque;
+     
+  
+  }
+  #choice12 {
+    font-family:cursive;
+    position:relative;
+    bottom: 200px;
+    left:520px;
+    font-size:30px;
+    background: none;
+    color:rgb(62, 137, 203);
+    background-color: bisque;
+
   }

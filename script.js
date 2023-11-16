@@ -14,8 +14,20 @@ function scrollToNextPage() {
       behavior: 'smooth'
     });
   }
+ 
+  function animateElement() {
+    gsap.from("#ready", {
+      y:100,
+    opacity:0,
+    delay:10,
+    duration:0.8,
+    stagger:0.4
+    });
+  }
 
-
+  // Add a click event listener to the button
+  document.getElementById("buttonToThirdPage").addEventListener("click", animateElement);
+ 
 
 
 
