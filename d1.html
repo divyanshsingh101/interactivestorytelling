@@ -23,7 +23,7 @@
         </div>
     </div>
     <div class="intro">
-        <img class="image image1" src="\images\bookshelf-final.jpeg" alt="old dusty library">
+        <img class="image image1" src="\images\bookshelf-final.jpeg" alt="old dusty library
         <img class="image image2" src="\images/image-girl-removebg-preview.png" alt="she c0ming to find book">
         <div class="para">
             <p>
@@ -40,7 +40,8 @@
                                                                      legendary lost treasure.</pre>
             </p>
 
-            <button id="buttonToThirdPage">click here to see the map</button>
+            
+            <button id="buttonToThirdPage" onclick="scrollToNextPage()">click here to see the map</button>
         </div>
 
 
@@ -53,15 +54,16 @@
     <div class="thirdpage">
       
         <div><img id="mapimage" src="\images/map.jpg" alt="map"></div>
-        <p >
+        <p class="map_para">
           the map was cryptic, filled with symbols and riddles,
           and whispered of unimaginable riches hidden in a far-off, uncharted jungle.
           It was a tantalizing mystery, and Dr. Rivers had to decide whether to embark</p>
         <!-- <div class="choices"> -->
-          <h1 ><center>Are you Ready to embark on a thrilling adventurous Experience ?</center></h1>
-       <div> <button id="choice1_1">go after this lost treasure</button>
-        <button id="choice1_2">go with his regular life</button> 
-       </div>
+        <div id="ready"><h1 id="ready1" ><center>Are you Ready to embark on a thrilling adventurous Experience ?</center></h1>
+          <button id="choice1_1" onclick="scrollToNextPage()">go after this lost treasure</button>
+          <button id="choice1_2">go with his regular life</button> 
+        
+        </div>
        <!-- </div>  -->
     </div>
     

@@ -17,10 +17,10 @@ function scrollToNextPage() {
  
   function animateElement() {
     gsap.from("#ready", {
-      y:100,
+    
     opacity:0,
-    delay:10,
-    duration:0.8,
+    delay:2,
+    duration:2,
     stagger:0.4
     });
   }

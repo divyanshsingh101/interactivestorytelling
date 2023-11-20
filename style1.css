@@ -160,6 +160,7 @@
     from {transform:scale(0)}
     to {transform:scale(1)}
   }
+
   .map_para{
     position: absolute;
     font-family: cursive;
@@ -196,7 +197,7 @@
     bottom: 250px;
     left: 150px; 
     font-size:40px;
-    color: rgb(251, 251, 251);
+    color: rgb(155, 96, 96);
     
     
 
