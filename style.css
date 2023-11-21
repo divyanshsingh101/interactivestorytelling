@@ -1,6 +1,6 @@
 
 .title {
-    height: 100vh;
+    height: 93vh;
     width: 100%;
     background-image: url("https://cdn.imgchest.com/files/b49zcke89ky.png");
 }
@@ -66,6 +66,8 @@
 }
 
 .image2 {
+    height: 150vh;
+    width: 100%;
     margin-left: 800px;
     margin-top: 200px;
    
@@ -290,7 +292,7 @@
 
 
   #chapter1{
-    height:100vh;
+   height:150vh;
     width:100%;
     position: relative;
   }
@@ -317,10 +319,11 @@
     z-index: -1;
   }*/
   #chapter1 img{
-    height:100vh;
+    height:100%;
     width:100%;
     border: none;
-    position: absolute;
+    position:absolute;
+    
     z-index: -1;
     margin-left: 0%;
 }
