@@ -70,9 +70,12 @@ nav a:hover {
     padding: 15px 35px;
     border: none;
     cursor: pointer;
-    position: absolute;
+    position:relative;
     margin-left: 400px;
     margin-top: 50px;
+    bottom: 60px;
+    left: -15px;
+
     
     
     font-family:Verdana, Geneva, Tahoma, sans-serif;

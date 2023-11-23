@@ -29,6 +29,6 @@ function scrollToNextPage() {
   document.getElementById("buttonToThirdPage").addEventListener("click", animateElement);
  
 
-
+ 
 
 
