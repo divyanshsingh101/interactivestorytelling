@@ -358,11 +358,10 @@ nav a:hover {
   #chapter1 img{
     height:100%;
     width:100%;
-    border: none;
-    position:absolute;
     
-    z-index: -1;
-    margin-left: 0%;
+    position:absolute;
+    top: -230px;
+    left:0px;
 }
   
 
