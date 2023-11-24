@@ -5,6 +5,10 @@ gsap.from("#text1 h1",{
     duration:0.8,
     stagger:0.4
 })
+function openNewPage() {
+                                         // You can replace 'newpage.html' with the URL of the webpage you want to open
+  window.open('early.html', '_blank');
+}
 function scrollToNextPage() {
     var currentScroll = window.scrollY;
     var pageHeight = window.innerHeight;
@@ -60,7 +64,14 @@ function animateElement() {
     var textElement = document.getElementById('c52');
     textElement.style.visibility = (textElement.style.visibility === 'visible') ? 'hidden' : 'visible';
   }
-
+  function openNewPage1() {
+    // You can replace 'newpage.html' with the URL of the webpage you want to open
+window.open('complete.html', '_blank');
+}
+function openNewPage2() {
+  // You can replace 'newpage.html' with the URL of the webpage you want to open
+window.open('retreat.html', '_blank');
+}
 
 
   
