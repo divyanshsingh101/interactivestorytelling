@@ -265,6 +265,9 @@ nav a:hover {
     height: 11vh;
   }
 
+
+
+
   #chapter1{
    height:150vh;
     width:100%;
@@ -293,12 +296,13 @@ nav a:hover {
     z-index: -1;
   }*/
   #chapter1 img{
-    height:100vh;
+    height:100%;
     width:100%;
-    
+    border: none;
     position:absolute;
-    top: -230px;
-    left:0px;
+    
+    z-index: -1;
+    margin-left: 0%;
 }
   
 
