@@ -1,0 +1,20 @@
+body{
+    background-color: aquamarine;
+    position: relative;
+}
+
+#farewell {
+    
+    position: absolute;
+    border: 0px 5px solid black;
+    /* padding: 50px; */
+    margin: 20px;
+    width: 49%;
+    font-size: 11px;
+    height: 83vh;
+    /* text-align: center; */
+    font-family: cursive;
+    margin-left: 100px;
+    box-shadow: -28px -14px 27px rgb(74, 71, 71);
+    background-color:rgb(202, 228, 17);
+}
